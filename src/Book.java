@@ -1,12 +1,23 @@
 public class Book {
     Author Author;
     int yearN;
-    String publisherName;;
+    String publisherName;
+
+    public Book(Object o, int i, Object o1) {
+    }
+}
+
+
+    public class Book {
+        private  Author Author;
+        private  int yearN;
+        private String publisherName;
+
 }
      Book (Author Author,int yearN,String publisherName){//ниже 3 строчки убрать,
-        this.Author=Author;
-        this.yearN=yearN;
-        this.publisherName=publisherName;
+         this.Author=Author;
+         this.yearN=yearN;
+         this.publisherName=publisherName;
     }
     public Author getAuthor() {
         return Author;
@@ -34,7 +45,8 @@ public class Book {
             this.yearN = yearN;
         }
     }
-}
+
+
 
 
 
