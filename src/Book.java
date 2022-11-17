@@ -3,18 +3,16 @@ public class Book {
     int yearN;
     String publisherName;
 
-    public Book(Object o, int i, Object o1) {
+   public Book(Object o, int i, Object o1) {
     }
-}
+
+      Class Book {
+         private Author Author;
+         private int yearN;
+         private String publisherName;
 
 
-    public class Book {
-        private  Author Author;
-        private  int yearN;
-        private String publisherName;
-
-}
-     Book (Author Author,int yearN,String publisherName){//ниже 3 строчки убрать,
+     public Book (Author Author,int yearN,String publisherName){//ниже 3 строчки убрать,
          this.Author=Author;
          this.yearN=yearN;
          this.publisherName=publisherName;

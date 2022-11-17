@@ -7,7 +7,7 @@ public class Main {
 
         System.out.println(myBook.Author);
         System.out.println(myBook.yearN);
-        System.out.println(myBook.publisherName;);
+        System.out.println(myBook.publisherName);
 
     }
 
