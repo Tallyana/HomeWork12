@@ -20,7 +20,7 @@ public class Book {
     public Author getAuthor() {
         return author;
     }
-    public void setYearN(int YearN ) {
+    public void setYearN(int yearN ) {
     this.yearN = yearN;
     }
 }
