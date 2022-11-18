@@ -18,6 +18,7 @@ public class Main {
         System.out.println(author2.getNameAuthor());
         System.out.println(author2.getLastAuthor());
         myBook2.setYearN(1922);
+        System.out.println(myBook2.getYearN());
     }
 
 }
