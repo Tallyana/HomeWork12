@@ -12,13 +12,22 @@ public class Main {
         Author author1 = new Author("Константин", "Симонов");
         Book myBook1 = new Book(author1,1977,"Рассказы");
         Author author2 = new Author("Александр", "Коц");
-        Book myBook2 = new Book(author2,2022,"Стихи");
+        Book myBook2 = new Book(author2,1998," Стихи.");
         System.out.println(author1.getNameAuthor());
         System.out.println(author1.getLastAuthor());
         System.out.println(author2.getNameAuthor());
         System.out.println(author2.getLastAuthor());
-        myBook2.setYearN(1922);
+        myBook2.setYearN(2022);
         System.out.println(myBook2.getYearN());
+        //НОВОЕ ЗАДАНИЕ
+        System.out.println("Новое задание.");
+
+        System.out.println(author1);
+        System.out.println(myBook2);
+
+        Author author3 = new Author("Александр", "Серебряков");
+        System.out.println(author1.equals(author3));
+        System.out.println(author1.hashCode() == author3.hashCode() );
     }
 
 }
